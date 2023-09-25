@@ -18,7 +18,7 @@ class Pez(Animal):
 
     @classmethod
     def cantidadPeces(cls):
-        return cls._listado.len()
+        return len(cls._listado)
 
     def movimiento(self):
         pass
