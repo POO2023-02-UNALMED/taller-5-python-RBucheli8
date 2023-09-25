@@ -22,11 +22,11 @@ class Ave(Animal):
     def movimiento(self):
         pass
 
-    def crearHalcon(self, nombre, edad, genero):
+    def crearHalcon(nombre, edad, genero):
         Ave(nombre, edad, "montanas", genero, "cafe glorioso")
         Ave.halcones += 1
 
-    def crearAguila(self, nombre, edad, genero):
+    def crearAguila(nombre, edad, genero):
         Ave(nombre, edad, "montanas", genero, "blanco y amarillo")
         Ave.aguilas += 1
 

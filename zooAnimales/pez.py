@@ -23,11 +23,11 @@ class Pez(Animal):
     def movimiento(self):
         pass
 
-    def crearSalmon(self, nombre, edad, genero):
+    def crearSalmon(nombre, edad, genero):
         Pez(nombre, edad, "oceano", genero, "rojo", 6)
         Pez.salmones += 1
 
-    def crearBacalao(self, nombre, edad, genero):
+    def crearBacalao(nombre, edad, genero):
         Pez(nombre, edad, "oceano", genero, "gris", 6)
         Pez.bacalaos += 1
 

@@ -23,11 +23,11 @@ class Anfibio(Animal):
     def movimiento(self):
         pass
 
-    def crearRana(self, nombre, edad, genero):
+    def crearRana(nombre, edad, genero):
         Anfibio(nombre, edad, "selva", genero, "rojo", True)
         Anfibio.ranas += 1
 
-    def crearSalamandra(self, nombre, edad, genero):
+    def crearSalamandra(nombre, edad, genero):
         Anfibio(nombre, edad, "selva", genero, "negro y amarillo", False)
         Anfibio.salamandras += 1
 

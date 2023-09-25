@@ -23,11 +23,11 @@ class Reptil(Animal):
     def movimiento(self):
         pass
 
-    def crearIguana(self, nombre, edad, genero):
+    def crearIguana(nombre, edad, genero):
         Reptil(nombre, edad, "humedal", genero, "verde", 3)
         Reptil.iguanas += 1
 
-    def crearSerpiente(self, nombre, edad, genero):
+    def crearSerpiente(nombre, edad, genero):
         Reptil(nombre, edad, "jungla", genero, "blanco", 1)
         Reptil.serpientes += 1
 
