@@ -14,7 +14,7 @@ class Pez(Animal):
         self._zona = None
         self._colorEscamas = color
         self._cantidadAletas = cantidad
-        Pez._listado += self
+        Pez._listado.append(self)
 
     @classmethod
     def cantidadPeces(cls):

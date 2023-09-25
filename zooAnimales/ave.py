@@ -13,7 +13,7 @@ class Ave(Animal):
         self._genero = genero
         self._zona = None
         self._colorPlumas = color
-        Ave._listado += self
+        Ave._listado.append(self)
 
     @classmethod
     def cantidadAves(cls):

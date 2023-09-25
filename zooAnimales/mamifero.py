@@ -14,7 +14,7 @@ class Mamifero(Animal):
         self._zona = None
         self._pelaje = pelaje
         self._patas = patas
-        Mamifero._listado += self
+        Mamifero._listado.append(self)
 
     @classmethod
     def cantidadMamiferos(cls):

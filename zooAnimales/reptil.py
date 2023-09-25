@@ -14,7 +14,7 @@ class Reptil(Animal):
         self._zona = None
         self._colorEscamas = color
         self._largoCola = largo
-        Reptil._listado += self
+        Reptil._listado.append(self)
 
     @classmethod
     def cantidadReptiles(cls):
