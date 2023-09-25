@@ -14,7 +14,7 @@ class Anfibio(Animal):
         self._zona = None
         self._colorPiel = color
         self._venenoso = venenoso
-        Anfibio._listado += self
+        Anfibio._listado.append(self)
 
     @classmethod
     def cantidadAnfibios(cls):
